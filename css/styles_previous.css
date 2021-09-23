@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    color: #FEFCFC;
+    /*font-family: 'Source-sans-pro','Arial', sans-serif;
+    font-weight: 800;
+    font-size: small;
+    text-align: center;*/
+    background-color: #353540;
+    background-image: url("images/home_img_long.jpg"); 
+    background-size: 900px 1800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    z-index:-100;
+}
+
+#dawn_homepg {
+    text-align:center;
+    color:white;
+}
+
