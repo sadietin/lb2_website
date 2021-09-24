@@ -1,6 +1,13 @@
 /Users/SaraTinetti/Documents/Website 4/CSS/Styles.css
   10, 27: background-image: url(../IMAGES/inside%20page%20layers%20xshort.jpg);
 -----------------
+changes copied on Friday from .container for contact us form:
+style="max-width:100% border-radius:1.5rem   background-color:#f2f2f2 padding:1.5rem;"
+
+
+
+
+
 styles from letters/responses:
 <style type="text/css">
 div#wrapper {

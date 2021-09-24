@@ -12,11 +12,11 @@
     color: rgba(59, 56, 122, 0.7);
   }
 
-/*
+
   .bg-light {
     background-color: #f8f9fa99;
   }
-*/
+
 
   .bg-light {
     background-color: #f8f9fa94 !important;
@@ -70,15 +70,15 @@ a:hover {
 }
 
 .nav-link active {
-  color: #854e86e6
+  color: #854e86e6;
 }
 
   .col-sm-6 {
     margin-top:3%;
    /* margin-left:2px;
-    padding-left: 5px;*/
+    padding-left: 5px; */
 }
-
+ 
 .col-sm-3 {
   align-content: center;
 }
@@ -90,7 +90,7 @@ a:hover {
 
 
 .clearfix {
-  margin-top; 133px;
+  margin-top: 133px;
 }
 
 .col-md-4 {

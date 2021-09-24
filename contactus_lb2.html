@@ -56,7 +56,7 @@ body {
     background-color: #45a049;
   }
   
-  .container {
+  .containercontact {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -67,7 +67,7 @@ body {
 <body>
 
   
-  <div class="container">
+  <div class="container-fluid">
 
   <div id="wrapper">
 
@@ -97,24 +97,23 @@ body {
         </div>
       </nav>
 
-      <div class="h1.clearfix">
-          <img src="images/Stone_bluish2.png" width="250" height="250" class="mx-auto fluid p-20-col-md-4 float-md-start mb-3 ms-md-3 align-middle" alt="crystal with cross">
-          <p>
-            A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-          </p>
-        
-          <p>
-            As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-          </p>
-        
-          <p>
-            And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-          </p>
+      <section class="container" style:"background-color:none;">
+        <div class="row align-items-center">
+            <div class="col-3 float-start mb-3 ms-sm-3 align-middle">
+              <img src="images/Stone_bluish2.png" style="max-width:200px;" alt="crystal with cross">
+            </div>
 
-      </div> <!-- for h1.clearfix -->
+        <div class="col-md-5 float-md-start mb-sm ms-md-5">
+           <h4> With deep respect for our bonds in Christ and the Holy Spirit's revelation of Himself: "Christ in you."
+        </h4></div>
+      </section> <!-- for header container -->
 
-      <div class="container-fluid" style="max-width:100%;">
-        <h3>Contact Form</h3>
+
+
+      <!-- HERE's where the contact Us form begins -->
+
+      <div class="container-fluid containercontact" >
+        <h4 style="color:hsla(243,18%,42%,0.70);">Contact Form</h4>
 
         <div class="container">
           <form action="/action_page.php">
@@ -127,12 +126,12 @@ body {
         
             <input type="submit" value="Submit">
           </form>
-        </div>
+        </div><!-- for contact us form -->
 
 
 
 </div>  <!-- for wrapper  -->
-
+</div> <!-- for initial top container -->
 
 
 <script src="js/jquery.slim.min.js"></script>

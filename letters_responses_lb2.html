@@ -26,6 +26,11 @@
       background-position: top center;
       z-index: -100;
       }
+  .containercontact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
   </style>
 
 
@@ -64,21 +69,22 @@
         </div>
       </nav>
 
-      <div class="h1.clearfix">
-        <img src="images/Stone_bluish2.png" width="250" height="250" class="mx-auto fluid p-20-col-md-4 float-md-start mb-3 ms-md-3 align-middle" alt="crystal with cross">
-        <p>
-          A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-        </p>
+      <div class="container">
+        <div class="row align-items-center">
+            <div class="col-3 float-start mb-3 ms-sm-3 align-middle">
+              <img src="images/Stone_bluish2.png" style="max-width:200px;" alt="crystal with cross">
+            </div>
+            <div class="col-md-5 float-md-start mb-sm ms-md-5">
+              <p class="bycrystal"> With deep respect for our bonds in Christ and the Holy Spirit's revelation of Himself: "Christ in you."
+              </p></div>
 
-    </div> <!-- for h1.clearfix -->
 
-      </div> <!-- for h1.clearfix -->
+      </div> <!-- for header container -->
 
 
       <!-- accordion style letters and responses -->
-      <div class="lettsec">
-
-        <h4 class="lettpg";>Letters, e-mails, responses</h4>
+      <div class="container-fluid containercontact">
+          <h4 style="color:hsla(243,18%,42%,0.70);">Letters and responses</h4>
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
