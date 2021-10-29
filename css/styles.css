@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+
+
+#wrapper {
+    position:absolute;
+    max-width:800px;
+    top:0px;
+    position:inherit;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+           
+    }
+
+    body {
+        color: #FEFCFC;
+        font-family: 'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
+        font-weight: 800;
+        text-align: center;
+        font-size: small;
+        background-color: #353540;
+        background-image: url("images/home_page_all_layers.jpg"); 
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-attachment:static;
+        background-position: top center;
+        z-index: -100;
+        }
+
+    
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 108%;
+    text-shadow: 2px 1px hsla(0,0%,0%,.70);
+    color: rgba(250,250,250,1.00);
+    }
+
+h2 {
+    font-weight: 900;
+    text-align: center;
+    word-spacing: 10%;
+    font-size: 2rem;
+    color: hsla(213,37%,51%,0.90);
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    }
+
+h3 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px rgba(226,220,207,0.80);
+    color: hsla(243,18%,42%,1.00);
+    letter-spacing: 358%;
+    white-space: pre-line;
+    text-transform: uppercase;
+    }
+
+
+h4 {
+    font-weight:700;
+    text-align: center;
+    font-size: 1.25rem;
+    color:#F8F5F5;
+    }
+
+h5 {
+    font-weight: 450;
+    /*font-style: italic;*/
+    text-align: left;
+    font-size: 1.15rem;
+    color: #F8F5F5;
+    margin-left: auto;
+    }
+
+h6 {
+    font-weight:500;
+    text-align: center;
+    font-size: 0.85rem;
+    color:rgb(146, 146, 146);
+    }
+   
+main {
+    position: absolute;
+    clear:left;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 180px;
+    }
+
+h1.lettpg {
+    font-size:2.32rem;
+    line-height: 1.6rem;
+    }
+
+.lettpglg {
+    font-size:2.7rem;
+    line-height: 2.8rem;
+    padding-top: 10%; 
+    }
+
+h4.lettpg {
+    font-family:'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
+    z-index: 1;
+    font-size: x-large;
+    color: rgb(240, 240, 248);
+    line-height: 1.6rem;
+    font-weight:600;
+    text-align:left;
+    text-shadow: 1px 1px 1px rgba(86, 81, 92, 0.8);
+    margin-left: 50px;
+    }
+
+.lettsec {
+    position:absolute;
+    margin-top: 20px;
+    }
+
+.accordion-body {
+    color: black;
+    font-size: .85rem;
+    font-weight: 300;
+    font-family:'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
+    text-align:left;
+    z-index: 1;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    }
+
+
+#top {
+  float:top;
+}
+
+#bg1 {
+    z-index: 100;
+    margin-top: 50px;
+    }  
+#cas {
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: hsla(243,18%,42%,0.80);
+    letter-spacing: 258%;
+    word-spacing: -0.1rem;
+    text-transform: uppercase;
+} 
+   
+.bycrystal {
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.7rem;
+    text-shadow:1px 1px 1px rgba(61, 60, 60, 0.8);
+    color: rgb(250, 250, 250);
+    letter-spacing: 358%;
+    white-space: pre-line;
+    /*text-transform: uppercase;*/
+    }
+
+
+.hs {    
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.2rem;
+    color:#FAF7F7;
+    letter-spacing: 358%;
+    white-space: pre-line;
+    /*text-transform: uppercase;*/
+    }   
+
+.ScriptureRef {
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .90rem;
+    text-transform:uppercase;
+    line-height: 3.5rem;
+    color:rgba(280, 280, 280, 1.)
+	}
+	
+
+img {
+    display: border-box;
+    aspect-ratio:auto 200 200;
+    max-width: 200px;
+    }
+
+.Pentecost {
+    color: rgba(250.250.250,1.00);
+    font-family: 'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 160%;
+    word-spacing: 110%;
+    letter-spacing: 110%;
+    white-space: pre-wrap;
+    text-shadow: 1px 1px rgba(34,34,34,1.00);
+    margin-top:2px;
+    padding-y: 0px;
+    padding-x: 6px;
+    text-indent: 0px;
+    white-space: pre-wrap;
+ }
+
+ /*pre {
+    position: absolute;
+    max-width: 70%;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right:auto;
+    color: rgba(249,241,242,1.00);
+    background-color: rgba(74,67,122,0.5);
+    font-family:'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 180%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    white-space: pre-wrap;
+    text-shadow: 1px 1px rgba(34,34,34,1.00);
+    line-height: 180%;
+    white-space: pre-wrap;
+    background-color: #3140923d;
+    }
+*/
+ 
+.ltext {
+    max-width:800px;
+    top:0px;
+    position:inherit;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    font-family:'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 120%;
+    word-spacing:120%;
+    letter-spacing:120%;
+    white-space: pre-wrap;
+    text-shadow:none;
+    line-height: 130%;
+    }
+
+    .paradawn {
+    color: rgba(250,250,250,1.00);
+    background-color:#0e1b3430;
+    border-radius: 1rem;
+    font-family: 'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px rgba(34,34,34,1.00);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 170%;
+    word-spacing: 120%;
+    letter-spacing: 120%;
+    padding-left:1rem;
+    padding-right:1rem;
+    z-index: 0;
+    display: block;
+    }
+
+    header {
+        position: absolute;
+        top: 30px;
+        padding-top: 20px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:40px;
+        z-index: 0;
+        }  
+
+     
+
+
