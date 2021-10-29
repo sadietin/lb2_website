@@ -184,7 +184,7 @@ img {
     letter-spacing: 110%;
     white-space: pre-wrap;
     text-shadow: 1px 1px rgba(34,34,34,1.00);
-    margin-top:42px;
+    margin-top:22px;
     padding-top: 3px;
     padding-left: 0px;
     text-indent: 0px;
@@ -221,12 +221,13 @@ img {
     border-radius: 1rem;
     font-family: 'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
     font-weight: 500;
-    font-style: italic;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 170%;
     word-spacing: 120%;
     letter-spacing: 120%;
+    padding-left:1rem;
+    padding-right:1rem;
     z-index: 0;
     display: block;
     }
