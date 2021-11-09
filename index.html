@@ -58,17 +58,25 @@ body {
 <div class="container-fluid" style="background-color:none;">
   <div id="wrapper">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand nav-link-active" id="cas" aria-current="page" href="index.html">Christ As Us</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="luli_intro.html">Beginnings</a>
-              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Beginnings</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">  
+                <a class="dropdown-item" href="luli_intro.html">Luli's Introduction </a>
+                <a class="dropdown-item" href="mighty_wind.html">The Coming Mighty Wind</a>
+                <a class="dropdown-item" href="bill_oberdorf.html">Correspondence with Bill Oberdorf</a> 
+              </div> 
+          </li>
+          </ul> 
+
               <li class="nav-item">
                 <a class="nav-link py-2"href="pentecost.html">The Real Pentecost</a>
               </li>
