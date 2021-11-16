@@ -20,13 +20,19 @@
         text-align: center;
         font-size: small;
         background-color: #353540;
-        background-image: url("images/home_page_all_layers.jpg"); 
-        background-size: 80%;
+        background-image: url("homepg_body3_grayblend.jpg");
+        background-size:80% auto;
         background-repeat: no-repeat;
         background-attachment:static;
         background-position: top center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 0px;
+        margin-bottom:0px;
         z-index: -100;
         }
+    
+    
 
     
 h1 {
@@ -81,6 +87,13 @@ h6 {
     text-align: center;
     font-size: 0.85rem;
     color:rgb(146, 146, 146);
+    }
+
+.oberdorf {
+    font-weight:400;
+    text-align: left;
+    font-size: 0.8rem;
+    color:rgb(44, 44, 44);
     }
    
 main {
@@ -198,8 +211,10 @@ img {
     white-space: pre-wrap;
     text-shadow: 1px 1px rgba(34,34,34,1.00);
     margin-top:2px;
-    padding-y: 0px;
-    padding-x: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
     text-indent: 0px;
     white-space: pre-wrap;
  }
