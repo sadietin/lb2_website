@@ -135,3 +135,19 @@ a:hover {
 .col-md-4 {
   flex: 0 1 auto
 }
+
+.accordion-button.collapsed {
+  margin-bottom:2rem;
+}
+
+.accordion-header {
+  color: rgb(0 0 0 / 45%);
+}
+
+.accordion-button{
+  color: rgb(0 0 0 / 45%);
+}
+
+.collapsed {
+  color: rgb(0 0 0 / 45%);
+}

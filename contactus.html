@@ -13,20 +13,6 @@
 
   <style type="text/css">
 
-body {
-    color: #FEFCFC;
-    font-family: 'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
-    font-weight: 800;
-    text-align: center;
-    font-size: small;
-    background-color: #353540;
-    background-image: url("images/home page all layers.jpg"); 
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-attachment:static;
-    background-position: top center;
-    z-index: -100;
-    }
 
 * {box-sizing: border-box;}
 
@@ -71,52 +57,93 @@ body {
 
   <div id="wrapper">
 
-    <!-- newly copied from bootstrap site -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" id="cas" href="index.html">Christ As Us</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="luli_intro.html">Luli's Intro</a>
+        <!--beginning of nav bar -->
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand nav-link" id="cas" href="index.html">Christ As Us</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!--nested dropdown "beginnings"-->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Beginnings</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">  
+                  <a class="dropdown-item" href="luli_intro.html">Luli's Introduction </a>
+                  <a class="dropdown-item" href="mighty_wind.html">The Coming Mighty Wind</a>
+                  <a class="dropdown-item" href="bill_oberdorf.html">Correspondence with Bill Oberdorf</a> 
+                </div> 
+              </li>
+              </ul><!--end of dropdown "beginnings"-->
+    
+              <!--nested dropdown "the real pentecost"-->
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  The Real Pentecost</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="pentecost.html">Progressing to Pentecost</a>  
+                    <a class="dropdown-item" href="bonikowsky_letter.html">Gary Bonikowsky's Letter</a>
+                    <a class="dropdown-item" href="oberdorf_letter.html">Bill Oberdorf's Letter</a>
+                </div> 
+              </li>
+              </ul>
+              <!--end of dropdown "the real pentecost"-->
+    
+              <!--nested dropdown "influencers"-->
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Influencers</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">  
+                    <a class="dropdown-item" href="n_grubb_pg.html">Norman Grubb</a>
+                    <a class="dropdown-item" href="w_law_pg.html">William Law</a>
+                    <a class="dropdown-item" href="j_boehme_pg.html">Jacob Boehme</a>
+                    <a class="dropdown-item" href="w_lanyon_pg.html">Walter Lanyon</a>
+                    <a class="dropdown-item" href="misc_writers_pg.html">Miscellaneous Writers</a>
+                    <a class="dropdown-item" href="external_sites_pg.html">External Sites</a>
+                </div> 
+              </li>
+              </ul>
+              <!--end of dropdown "influencers"-->            
+    
+              <!--"2 simple links; Q & Responses and Contact Us"-->            
+                <li class="nav-item">
+                  <a class="nav-link" href="Q_responses.html">Questions and Responses</a>
                 </li>
-              <li class="nav-item">
-                <a class="nav-link"href="pentecost_lb3.html">Pentecost</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="influencers.html">Influencers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Q_responses.html">Questions & Responses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link-active" aria-current="page"  href="contactus_lb2.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <section class="container" style:"background-color:none;">
-        <div class="row align-items-center">
-            <div class="col-3 float-start mb-3 ms-sm-3 align-middle">
-              <img src="images/Stone_bluish2.png" style="max-width:200px;" alt="crystal with cross">
+    
+                <li class="nav-item">
+                  <a class="nav-link-active" aria-current="page" href="contactus.html">Contact Us</a>
+                </li>
+              </ul>
+              <!--end of "Q & Responses and Contact Us links"--> 
+    
             </div>
+          </div>
+      </nav>
+      <!--end of nav--> 
 
-        <div class="col-md-5 float-md-start mb-sm ms-md-5">
-           <h4> With deep respect for our bonds in Christ and the Holy Spirit's revelation of Himself: "Christ in you."
-        </h4></div>
-      </section> <!-- for header container -->
+<!--stone header image --> 
+<section class="container py-0" style:"background-color:none;">
+  <div class="row mb-0 py-0 row-col-2 align-items-center justify-content-center">
+      <div class="col 3 float-start mb-3 align-center">
+        <img src="images/Stone_bluish2.png" style="max-width:150px;" alt="crystal with cross">
 
+           <h4 style="text-shadow: 1px 1px hsla(0,0%,0%,.60);"> With deep respect for our bonds in Christ and the Holy Spirit's revelation of Himself: "Christ in you."
+        </h4>      
+      </div>
+      </section> <!-- close (header) container -->
 
 
       <!-- HERE's where the contact Us form begins -->
 
       <div class="container-fluid containercontact" >
-        <h4 style="color:hsla(243,18%,42%,0.70);">Contact Form</h4>
+        <h4 style="font-size:medium; color:rgb(122, 122, 122);">Contact Us</h4>
 
         <div class="container">
           <form action="/action_page.php">
