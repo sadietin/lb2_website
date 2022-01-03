@@ -33,9 +33,7 @@
         }
     
     
-p {
-    text-indent:0;
-}
+
     
 h1 {
     font-weight: 900;
@@ -143,12 +141,16 @@ h4.lettpg {
     z-index: 1;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
-    text-indent:0;
+    text-indent:10px;
     }
 
 
 #top {
   float:top;
+}
+
+#plp {
+    text-indent:-3rem;
 }
 
 #bg1 {
@@ -218,7 +220,7 @@ img {
     padding-bottom: 0px;
     padding-left: 6px;
     padding-right: 6px;
-    text-indent: 0px;
+    text-indent: 10px;
     white-space: pre-wrap;
  }
 
@@ -244,7 +246,10 @@ img {
     background-color: #3140923d;
     }
 */
- 
+.p { 
+    text-indent: 10px;
+}
+
 .ltext {
     max-width:800px;
     top:0px;
@@ -275,7 +280,7 @@ img {
         letter-spacing:120%;
         white-space: pre-wrap;
         text-shadow:none;
-        text-indent: 0;
+        text-indent: 200px;
         }
 
     .paradawn {
