@@ -137,7 +137,10 @@ a:hover {
 }
 
 .accordion-button.collapsed {
+  margin-top: 3rem;
   margin-bottom:2rem;
+  background-color:rgb(186, 198, 209);
+  color:rgb(slategrey;
 }
 
 .accordion-header {
@@ -148,6 +151,22 @@ a:hover {
   color: rgb(0 0 0 / 45%);
 }
 
+.accordion-item {
+  margin-bottom:4rem;
+  background-color:thistle;
+}
+
+.accordion-button:focus {
+background-color:tomato;
+}
+
+.accordion-button::after {
+margin-bottom:2rem;
+}
+
 .collapsed {
   color: rgb(0 0 0 / 45%);
+}
+#headingFour {
+  margin-top:3rem;
 }
