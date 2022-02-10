@@ -164,6 +164,11 @@ background-color:tomato;
 margin-bottom:2rem;
 }
 
+.accordion-body {
+  padding: 1rem 1.25rem;
+  color:#2c3034
+}
+
 .collapsed {
   color: rgb(0 0 0 / 45%);
 }
