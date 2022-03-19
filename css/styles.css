@@ -4,12 +4,12 @@
 
 #wrapper {
     position:absolute;
-    max-width:800px;
+    max-width:80%;
     top:0px;
     position:inherit;
     margin-top: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
            
     }
 
@@ -20,10 +20,11 @@
         text-align: center;
         font-size: small;
         background-color: #353540;
+        background: linear-gradient(to bottom, #1e5799 12%,#207cca 34%,#207cca 34%,#2989d8 50%,#070404 100%);
         background-image: url("../images/home_page_all_layers3d.png");
-        background-size:80% 100%; 
-        background-repeat: no-repeat;
-        background-attachment:static;
+        background-size:100% 100%; 
+        background-repeat: no-repeat;   
+        background-attachment:fixed;
         background-position: top center;
         margin-left:auto;
         margin-right:auto;
