@@ -288,7 +288,8 @@ img {
     .paradawn {
     color: rgba(250,250,250,1.00);
     background-color:#0e1b344c;
-    border-radius: 1rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
     font-family: 'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px rgba(34,34,34,1.00);
     font-weight: 500;

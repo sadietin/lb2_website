@@ -3,7 +3,8 @@
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    color: rgb(135, 106, 138);
+
+    color: rgb(86, 64, 88);
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   }
@@ -11,11 +12,13 @@
   .nav-link-active {
 
     padding: 0.5rem 1rem;
-    color: rgb(86, 64, 88);
+    color: rgb(135, 106, 138);
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   }
-  }
+ .nav-item {
+ list-style: none;
+ } 
 
 
 
@@ -109,7 +112,7 @@ a:hover {
 }
 
 .nav-link active {
-  color: #854e86e6;
+  color: rgb(0 0 0 / 75%);
 }
 
   .col-sm-6 {
