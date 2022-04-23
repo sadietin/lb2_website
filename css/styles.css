@@ -20,9 +20,9 @@
         text-align: center;
         font-size: small;
         background-color: #353540;
-        background: linear-gradient(to bottom, #1e5799 12%,#207cca 34%,#207cca 34%,#2989d8 50%,#070404 100%);
         background-image: url("../images/home_page_all_layers3d.png");
-        background-size:100% 100%; 
+        object-fit:cover;
+        background-size: 100% auto; 
         background-repeat: no-repeat;   
         background-attachment:fixed;
         background-position: top center;
