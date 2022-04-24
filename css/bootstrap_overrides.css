@@ -3,22 +3,25 @@
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    color: rgb(86, 64, 88);
+    margin-top: -0.5;
+    color: rgb(105, 91, 106);
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   }
 
   .nav-link-active {
     padding: 0.5rem 1rem;
-    color: rgb(135, 106, 138);
+    color: rgb(114, 68, 119);
     text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color  0.15s ease-in-out;
   }
  .nav-item {
  list-style: none;
  } 
 
-
+.dropdown-menu.show {
+  background-color:rgba(243, 246, 249, 0.804)
+}
 
   .nav-link:hover, .nav-link:focus {
     color: rgba(59, 56, 122, 0.7);
@@ -36,7 +39,7 @@
     color: #472d53;
     text-align: left;
     list-style: none;
-    background-color: rgba(255, 255, 255, 0.389);
+    background-color: rgba(255, 255, 255, 0.589);
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;
@@ -172,7 +175,9 @@ margin-bottom:2rem;
 
 .collapsed {
   color: rgb(0 0 0 / 45%);
+  background-color: thistle;
 }
+
 #headingFour {
   margin-top:3rem;
 }
