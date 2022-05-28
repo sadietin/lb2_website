@@ -17,6 +17,25 @@ if (
     !isset($_POST['message'])
 ) {
     problem("We're sorry, but there appears to be a problem with the form you submitted.");
+    echo "name: "
+    echo $_POST['name']
+    echo "<br>"
+    
+    echo "Name: "
+    echo $_POST['Name']
+    echo "<br>"
+    
+    echo "email: "
+    echo $_POST['email']
+    echo "<br>"
+    
+    echo "subject: "
+    echo $_POST['subject']
+    echo "<br>"
+    
+    echo "message: "
+    echo $_POST['message']
+    echo "<br>"
 }
 
 $name = $_POST['name']; // required
