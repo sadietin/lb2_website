@@ -1,11 +1,5 @@
 <?php
-$email_to = "john@tinetti.net";
-
-$subject = "My subject";
-$txt = "Hello world!";
-$headers = "From: webmaster@example.com";
-
-mail($email_to,$subject,$txt,$headers);
+$email_to = "cas.saratin@gmail.com";
 
 function problem($error)
 {
@@ -67,7 +61,7 @@ $email_message .= "Message: " . clean_string($message) . "\n";
 $headers = 'From: ' . $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-$result = mail($email_to, $subject, $email_message, $headers);
+mail($email_to, $subject, $email_message, $headers);
 ?>
 
 <!DOCTYPE html>
@@ -88,4 +82,3 @@ $result = mail($email_to, $subject, $email_message, $headers);
 Thanks for reaching out!
 </body>
 </html>
-
