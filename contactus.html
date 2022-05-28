@@ -146,14 +146,13 @@
         <h5>Contact Us</h5>
 
         <div class="container">
-          <form action="/action_page.php">
-
-            <input type="text" id="fname" name="firstname" placeholder="Your name">
-        
-            <input type="text" id="lname" name="email" placeholder="Your email">
-        
-            <textarea id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
-        
+          <form action="/send_email.php">
+            <input type="text" id="fname" name="name" placeholder="Your name">        
+            <input type="text" id="email" name="email" placeholder="Your email">
+            <input type="text" id="subject" name="subject" placeholder="Subject">
+            
+            <textarea id="message" name="message" placeholder="Your Message" style="height:200px"></textarea>
+            
             <input type="submit" value="Send">
           </form>
         </div><!-- for contact us form -->
