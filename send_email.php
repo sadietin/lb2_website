@@ -70,7 +70,8 @@ if (isset($_POST['Email'])) {
 
 <?php
 } else {
+?>
     this is the "else" part
+<?php
 }
 ?>
-after php
