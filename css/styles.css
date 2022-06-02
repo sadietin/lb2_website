@@ -39,13 +39,12 @@
             font-weight: 800;
             text-align: center;
             font-size: small;
-            background-color: #353540;
-            background-image: url("../images/home_page_all_layers3d.png");
-            background-size:100% 100%; 
+            background-color: #000005;
+            background-image: url("../images/dawning_earlyv4.png");
+            background-size:100%; 
             background-repeat: no-repeat;
             background-attachment:static;
             background-position: top center;
-            object-fit:cover;
             margin-left:auto;
             margin-right:auto;
             margin-top: 0px;
@@ -170,6 +169,7 @@ h4.lettpg {
     }
 
 
+
 #top {
   float:top;
 }
@@ -195,23 +195,38 @@ h4.lettpg {
     font-weight: 600;
     text-align: center;
     font-size: 1.7rem;
-    text-shadow:1px 1px 1px rgba(61, 60, 60, 0.8);
+    text-shadow:1px 1px 2px rgba(61, 60, 60, 0.8);
     color: rgb(250, 250, 250);
     letter-spacing: 358%;
     white-space: pre-line;
     /*text-transform: uppercase;*/
     }
 
+    .paradawn {
+        color: rgb(255, 255, 255);
+        background-color:#3052b761;
+        margin-top: 2rem;
+        border-radius: 0.65rem;
+        padding-left:.8rem;
+        padding-right:.8rem;
+        z-index: 0;
+        display: block;
+        }
+    
 
 .hs {    
-    font-weight: 700;
-    text-align: center;
-    font-size: 1.2rem;
-    color:#FAF7F7;
-    letter-spacing: 358%;
+    font-family: 'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size: 1.15em;
+    text-align:center;
+    text-shadow:1px 1px 2px rgb(0, 0, 0);
+    line-height: 145%;
+    word-spacing: 110%;
+    letter-spacing: 110%;
     white-space: pre-line;
     /*text-transform: uppercase;*/
-    }   
+    } 
+    
 
 .ScriptureRef {
     font-weight: 600;
@@ -308,24 +323,6 @@ img {
         text-indent: 200px;
         }
 
-    .paradawn {
-    color: rgba(250,250,250,1.00);
-    background-color:#0e1b344c;
-    margin-top: 2rem;
-    border-radius: 0.65rem;
-    font-family: 'Source-sans', 'Open Sans','Verdana', Geneva, Tahoma, sans-serif;
-    text-shadow: 1px 1px rgba(34,34,34,1.00);
-    font-weight: 500;
-    text-align: center;
-    font-size: 1.2rem;
-    line-height: 170%;
-    word-spacing: 120%;
-    letter-spacing: 120%;
-    padding-left:1rem;
-    padding-right:1rem;
-    z-index: 0;
-    display: block;
-    }
 
     header {
         position: absolute;
